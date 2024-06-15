@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1b1b;
+  color: #ffa31a;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #292929;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  max-height: 50px;
+}
+
+header nav a {
+  color: #ffa31a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  text-decoration: none;
+}
+footer {
+  background-color: #292929;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ffa31a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#speak{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+#conosco{
+  padding: 200px 20px;
+  background-color: #292929;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 10px;
+  
+}
+
+#E-mailform, #telegramform{
+  text-decoration: none;
+  font: normal 20pt arial;
+  color: #ffa31a;
+  display: flex;
+}
+
+#abc{
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+#E-mailform:hover, #telegramform:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
